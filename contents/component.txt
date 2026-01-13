@@ -1,0 +1,71 @@
+1. Button
+
+Props: label, variant (primary, secondary, ghost), size (sm, md, lg), disabled, onClick
+
+Features: hover/focus animation, ripple effect, loading state, icon support
+
+2. Input
+
+Props: value, defaultValue, placeholder, type, onChange, error
+
+Features: controlled/uncontrolled, validation, error display, icon support
+
+3. Switch
+
+Props: checked, onChange, disabled
+
+Features: toggle animation, keyboard accessibility, theming
+
+4. Checkbox / Radio
+
+Props: checked, onChange, label, disabled
+
+Features: custom styles, group behavior, keyboard support
+
+5. Dropdown
+
+Props: options, selected, onChange, placeholder
+
+Features: click outside to close, keyboard navigation, search/filter
+
+6. Tooltip
+
+Props: content, position, children
+
+Features: hover/focus trigger, animation, auto-positioning
+
+7. Modal
+
+Props: isOpen, onClose, title, children
+
+Features: overlay click/ESC to close, animations, focus trap, portal rendering
+
+8. Tabs
+
+Props: tabs (array), activeTab, onChange
+
+Features: keyboard navigation, animated indicator, lazy content rendering
+
+9. Accordion
+
+Props: items (title + content), defaultOpenIndex
+
+Features: smooth open/close animation, multiple open, keyboard navigation
+
+10. Card
+
+Props: title, content, image, footer
+
+Features: hover effect, shadow, click action
+
+11. Avatar
+
+Props: src, alt, size, status
+
+Features: fallback initials, status indicator, shape variants
+
+12. Spinner / Skeleton
+
+Props: size, color, animation type
+
+Features: loading placeholder, theme-aware

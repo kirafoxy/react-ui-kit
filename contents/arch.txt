@@ -1,0 +1,30 @@
+src/
+├─ components/
+│ ├─ Button/
+│ │ ├─ Button.jsx
+│ │ ├─ Button.types.js (props описания)
+│ │ └─ Button.module.css
+│ ├─ Input/
+│ │ ├─ Input.jsx
+│ │ └─ Input.module.css
+│ ├─ Switch/
+│ ├─ Checkbox/
+│ ├─ Radio/
+│ ├─ Dropdown/
+│ ├─ Tooltip/
+│ ├─ Modal/
+│ ├─ Tabs/
+│ ├─ Accordion/
+│ ├─ Card/
+│ ├─ Avatar/
+│ ├─ Spinner/
+│ ├─ Skeleton/
+│ └─ index.js (экспорт всех компонентов)
+├─ theme/
+│ ├─ ThemeProvider.jsx
+│ ├─ tokens.js
+│ └─ themes.css
+├─ hooks/
+│ └─ useToggle.js
+├─ utils/
+└─ App.jsx

@@ -1,0 +1,60 @@
+Шаг 1. Theme System
+
+    CSS variables для цветов, шрифтов, отступов
+
+    ThemeProvider хранит текущую тему и позволяет переключать
+
+    Легко подключается к любому компоненту через context или CSS variables
+
+
+Шаг 2. Анимации
+
+    Использовать CSS transitions или Framer Motion
+
+    Hover/focus/click для Button, Dropdown, Tabs, Accordion, Modal
+
+    Skeleton/Spinner анимации
+
+
+Шаг 3. Адаптивность
+
+    Flex/Grid + media queries
+
+    Минимальные размеры: 320px, 768px, 1024px, 1440px
+
+    Проверять на мобильных и десктопных браузерах
+
+
+Шаг 4. Фичи "под капотом"
+
+    Code Preview / Props Panel для каждого компонента
+
+    Storybook stories с демонстрацией: props, states, theme switching
+
+    Возможность увидеть JSX и стили компонентов в действии
+
+
+Шаг 5. Тестирование
+
+    Unit tests (Jest / React Testing Library)
+
+    Button click
+
+    Input change
+
+    Switch toggle
+
+    Dropdown selection
+
+    Modal open/close
+
+    Integration tests
+
+    Theme switching меняет цвета всех компонентов
+
+    Storybook stories запускаются без ошибок
+
+    Visual regression tests (optional)
+
+    Percy / Chromatic для проверки стилей и адаптивности
+
